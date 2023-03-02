@@ -11,6 +11,13 @@
 		2F7FC94029B0B55C00CFCAB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC93F29B0B55C00CFCAB3 /* ContentView.swift */; };
 		2F7FC94229B0B55D00CFCAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7FC94129B0B55D00CFCAB3 /* Assets.xcassets */; };
 		2F7FC94529B0B55D00CFCAB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7FC94429B0B55D00CFCAB3 /* Preview Assets.xcassets */; };
+		2F7FC95429B0B59200CFCAB3 /* TaskGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC94C29B0B59200CFCAB3 /* TaskGroupView.swift */; };
+		2F7FC95529B0B59200CFCAB3 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC94D29B0B59200CFCAB3 /* TaskView.swift */; };
+		2F7FC95629B0B59200CFCAB3 /* AsyncLetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC94E29B0B59200CFCAB3 /* AsyncLetView.swift */; };
+		2F7FC95729B0B59200CFCAB3 /* DoTryCatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC94F29B0B59200CFCAB3 /* DoTryCatchView.swift */; };
+		2F7FC95829B0B59200CFCAB3 /* AsyncAwaitViewReal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC95129B0B59200CFCAB3 /* AsyncAwaitViewReal.swift */; };
+		2F7FC95929B0B59200CFCAB3 /* AsyncAwaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC95229B0B59200CFCAB3 /* AsyncAwaitView.swift */; };
+		2F7FC95A29B0B59200CFCAB3 /* DownloadImageWithAsyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC95329B0B59200CFCAB3 /* DownloadImageWithAsyncView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		2F7FC93F29B0B55C00CFCAB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F7FC94129B0B55D00CFCAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F7FC94429B0B55D00CFCAB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F7FC94C29B0B59200CFCAB3 /* TaskGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskGroupView.swift; sourceTree = "<group>"; };
+		2F7FC94D29B0B59200CFCAB3 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		2F7FC94E29B0B59200CFCAB3 /* AsyncLetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncLetView.swift; sourceTree = "<group>"; };
+		2F7FC94F29B0B59200CFCAB3 /* DoTryCatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoTryCatchView.swift; sourceTree = "<group>"; };
+		2F7FC95129B0B59200CFCAB3 /* AsyncAwaitViewReal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncAwaitViewReal.swift; sourceTree = "<group>"; };
+		2F7FC95229B0B59200CFCAB3 /* AsyncAwaitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncAwaitView.swift; sourceTree = "<group>"; };
+		2F7FC95329B0B59200CFCAB3 /* DownloadImageWithAsyncView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadImageWithAsyncView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,11 @@
 			children = (
 				2F7FC93D29B0B55C00CFCAB3 /* SwiftConcurrency2App.swift */,
 				2F7FC93F29B0B55C00CFCAB3 /* ContentView.swift */,
+				2F7FC95029B0B59200CFCAB3 /* AsyncAwaitKeywords */,
+				2F7FC94E29B0B59200CFCAB3 /* AsyncLetView.swift */,
+				2F7FC94F29B0B59200CFCAB3 /* DoTryCatchView.swift */,
+				2F7FC95329B0B59200CFCAB3 /* DownloadImageWithAsyncView.swift */,
+				2F7FC94B29B0B59200CFCAB3 /* Task */,
 				2F7FC94129B0B55D00CFCAB3 /* Assets.xcassets */,
 				2F7FC94329B0B55D00CFCAB3 /* Preview Content */,
 			);
@@ -65,6 +84,24 @@
 				2F7FC94429B0B55D00CFCAB3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F7FC94B29B0B59200CFCAB3 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				2F7FC94C29B0B59200CFCAB3 /* TaskGroupView.swift */,
+				2F7FC94D29B0B59200CFCAB3 /* TaskView.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		2F7FC95029B0B59200CFCAB3 /* AsyncAwaitKeywords */ = {
+			isa = PBXGroup;
+			children = (
+				2F7FC95129B0B59200CFCAB3 /* AsyncAwaitViewReal.swift */,
+				2F7FC95229B0B59200CFCAB3 /* AsyncAwaitView.swift */,
+			);
+			path = AsyncAwaitKeywords;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7FC95A29B0B59200CFCAB3 /* DownloadImageWithAsyncView.swift in Sources */,
 				2F7FC94029B0B55C00CFCAB3 /* ContentView.swift in Sources */,
+				2F7FC95429B0B59200CFCAB3 /* TaskGroupView.swift in Sources */,
+				2F7FC95829B0B59200CFCAB3 /* AsyncAwaitViewReal.swift in Sources */,
 				2F7FC93E29B0B55C00CFCAB3 /* SwiftConcurrency2App.swift in Sources */,
+				2F7FC95629B0B59200CFCAB3 /* AsyncLetView.swift in Sources */,
+				2F7FC95529B0B59200CFCAB3 /* TaskView.swift in Sources */,
+				2F7FC95929B0B59200CFCAB3 /* AsyncAwaitView.swift in Sources */,
+				2F7FC95729B0B59200CFCAB3 /* DoTryCatchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
