@@ -10,3 +10,4 @@
 5. TaskGroup
 6. Continuations
 7. Class vs Struct vs Actor
+8. [Actors](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/ActorsExampleView.swift)
