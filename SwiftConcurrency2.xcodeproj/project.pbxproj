@@ -18,6 +18,9 @@
 		2F7FC95829B0B59200CFCAB3 /* AsyncAwaitViewReal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC95129B0B59200CFCAB3 /* AsyncAwaitViewReal.swift */; };
 		2F7FC95929B0B59200CFCAB3 /* AsyncAwaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC95229B0B59200CFCAB3 /* AsyncAwaitView.swift */; };
 		2F7FC95A29B0B59200CFCAB3 /* DownloadImageWithAsyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC95329B0B59200CFCAB3 /* DownloadImageWithAsyncView.swift */; };
+		2F978CAF29C1D89F00E74A40 /* ActorsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F978CAE29C1D89F00E74A40 /* ActorsExampleView.swift */; };
+		2FAD1AE129B4F7CF00E5541B /* ContinuationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD1AE029B4F7CF00E5541B /* ContinuationsView.swift */; };
+		2FE082CC29B7775F00639F64 /* StructClassExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE082CB29B7775F00639F64 /* StructClassExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,10 @@
 		2F7FC95129B0B59200CFCAB3 /* AsyncAwaitViewReal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncAwaitViewReal.swift; sourceTree = "<group>"; };
 		2F7FC95229B0B59200CFCAB3 /* AsyncAwaitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncAwaitView.swift; sourceTree = "<group>"; };
 		2F7FC95329B0B59200CFCAB3 /* DownloadImageWithAsyncView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadImageWithAsyncView.swift; sourceTree = "<group>"; };
+		2F978CAE29C1D89F00E74A40 /* ActorsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsExampleView.swift; sourceTree = "<group>"; };
+		2FAD1AE029B4F7CF00E5541B /* ContinuationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuationsView.swift; sourceTree = "<group>"; };
+		2FE082CB29B7775F00639F64 /* StructClassExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassExampleView.swift; sourceTree = "<group>"; };
+		2FE082CD29B7782500639F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +72,16 @@
 		2F7FC93C29B0B55C00CFCAB3 /* SwiftConcurrency2 */ = {
 			isa = PBXGroup;
 			children = (
+				2FE082CD29B7782500639F64 /* Info.plist */,
+				2FAD1AE029B4F7CF00E5541B /* ContinuationsView.swift */,
 				2F7FC93D29B0B55C00CFCAB3 /* SwiftConcurrency2App.swift */,
 				2F7FC93F29B0B55C00CFCAB3 /* ContentView.swift */,
 				2F7FC95029B0B59200CFCAB3 /* AsyncAwaitKeywords */,
 				2F7FC94E29B0B59200CFCAB3 /* AsyncLetView.swift */,
 				2F7FC94F29B0B59200CFCAB3 /* DoTryCatchView.swift */,
+				2F978CAE29C1D89F00E74A40 /* ActorsExampleView.swift */,
 				2F7FC95329B0B59200CFCAB3 /* DownloadImageWithAsyncView.swift */,
+				2FE082CB29B7775F00639F64 /* StructClassExampleView.swift */,
 				2F7FC94B29B0B59200CFCAB3 /* Task */,
 				2F7FC94129B0B55D00CFCAB3 /* Assets.xcassets */,
 				2F7FC94329B0B55D00CFCAB3 /* Preview Content */,
@@ -174,13 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE082CC29B7775F00639F64 /* StructClassExampleView.swift in Sources */,
 				2F7FC95A29B0B59200CFCAB3 /* DownloadImageWithAsyncView.swift in Sources */,
 				2F7FC94029B0B55C00CFCAB3 /* ContentView.swift in Sources */,
 				2F7FC95429B0B59200CFCAB3 /* TaskGroupView.swift in Sources */,
 				2F7FC95829B0B59200CFCAB3 /* AsyncAwaitViewReal.swift in Sources */,
+				2F978CAF29C1D89F00E74A40 /* ActorsExampleView.swift in Sources */,
 				2F7FC93E29B0B55C00CFCAB3 /* SwiftConcurrency2App.swift in Sources */,
 				2F7FC95629B0B59200CFCAB3 /* AsyncLetView.swift in Sources */,
 				2F7FC95529B0B59200CFCAB3 /* TaskView.swift in Sources */,
+				2FAD1AE129B4F7CF00E5541B /* ContinuationsView.swift in Sources */,
 				2F7FC95929B0B59200CFCAB3 /* AsyncAwaitView.swift in Sources */,
 				2F7FC95729B0B59200CFCAB3 /* DoTryCatchView.swift in Sources */,
 			);
@@ -314,7 +328,7 @@
 				DEVELOPMENT_TEAM = MJ4M4XMHNY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SwiftConcurrency2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -343,7 +357,7 @@
 				DEVELOPMENT_TEAM = MJ4M4XMHNY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = SwiftConcurrency2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
