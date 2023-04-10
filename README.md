@@ -11,4 +11,4 @@
 6. [Continuations](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/ContinuationsView.swift)
 7. [Class vs Struct vs Actor](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/StructClassExampleView.swift)
 8. [Actors](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/ActorsExampleView.swift)
-9. [Global Actors](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/ActorsExampleView.swift)
+9. [Global Actors](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/GlobalActorsView.swift)
