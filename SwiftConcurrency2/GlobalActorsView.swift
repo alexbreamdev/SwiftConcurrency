@@ -32,10 +32,10 @@ class GlobalActorsViewModel: ObservableObject {
     @MainActor @Published var dataArray: [String] = []
     let manager = MyFirstGlobalActor.shared
     
-// isolating to global actor
+    // isolating to global actor
     // marks method as async
     @MyFirstGlobalActor
-//    @MainActor // main actor is global actor which insures that code runs on the main thread
+    //    @MainActor // main actor is global actor which insures that code runs on the main thread
     func getData() async {
         let data = await manager.getDataFromDatabase()
         // update dataArray on main thread
