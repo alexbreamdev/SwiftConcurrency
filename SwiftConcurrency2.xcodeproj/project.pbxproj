@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F06E77A29E86078007DC04C /* SendableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F06E77929E86078007DC04C /* SendableView.swift */; };
 		2F7FC93E29B0B55C00CFCAB3 /* SwiftConcurrency2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC93D29B0B55C00CFCAB3 /* SwiftConcurrency2App.swift */; };
 		2F7FC94029B0B55C00CFCAB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC93F29B0B55C00CFCAB3 /* ContentView.swift */; };
 		2F7FC94229B0B55D00CFCAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7FC94129B0B55D00CFCAB3 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F06E77929E86078007DC04C /* SendableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableView.swift; sourceTree = "<group>"; };
 		2F7FC93A29B0B55C00CFCAB3 /* SwiftConcurrency2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7FC93D29B0B55C00CFCAB3 /* SwiftConcurrency2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrency2App.swift; sourceTree = "<group>"; };
 		2F7FC93F29B0B55C00CFCAB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				2F7FC95329B0B59200CFCAB3 /* DownloadImageWithAsyncView.swift */,
 				2FE082CB29B7775F00639F64 /* StructClassExampleView.swift */,
 				2F9E3FA429E406DE00DDCC98 /* GlobalActorsView.swift */,
+				2F06E77929E86078007DC04C /* SendableView.swift */,
 				2F7FC94B29B0B59200CFCAB3 /* Task */,
 				2F7FC94129B0B55D00CFCAB3 /* Assets.xcassets */,
 				2F7FC94329B0B55D00CFCAB3 /* Preview Content */,
@@ -198,6 +201,7 @@
 				2F7FC93E29B0B55C00CFCAB3 /* SwiftConcurrency2App.swift in Sources */,
 				2F7FC95629B0B59200CFCAB3 /* AsyncLetView.swift in Sources */,
 				2F7FC95529B0B59200CFCAB3 /* TaskView.swift in Sources */,
+				2F06E77A29E86078007DC04C /* SendableView.swift in Sources */,
 				2FAD1AE129B4F7CF00E5541B /* ContinuationsView.swift in Sources */,
 				2F7FC95929B0B59200CFCAB3 /* AsyncAwaitView.swift in Sources */,
 				2F7FC95729B0B59200CFCAB3 /* DoTryCatchView.swift in Sources */,
