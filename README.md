@@ -13,3 +13,4 @@
 9. [Actors](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/ActorsExampleView.swift)
 10. [Global Actors](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/GlobalActorsView.swift)
 11. [Sendable](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/SendableView.swift)
+12. [AsyncPublisher](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/AsyncPublisherView.swift)

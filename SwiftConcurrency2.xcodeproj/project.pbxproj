@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F06E77A29E86078007DC04C /* SendableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F06E77929E86078007DC04C /* SendableView.swift */; };
+		2F06E77C29E873BC007DC04C /* AsyncPublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F06E77B29E873BC007DC04C /* AsyncPublisherView.swift */; };
 		2F7FC93E29B0B55C00CFCAB3 /* SwiftConcurrency2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC93D29B0B55C00CFCAB3 /* SwiftConcurrency2App.swift */; };
 		2F7FC94029B0B55C00CFCAB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC93F29B0B55C00CFCAB3 /* ContentView.swift */; };
 		2F7FC94229B0B55D00CFCAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7FC94129B0B55D00CFCAB3 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		2F06E77929E86078007DC04C /* SendableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableView.swift; sourceTree = "<group>"; };
+		2F06E77B29E873BC007DC04C /* AsyncPublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisherView.swift; sourceTree = "<group>"; };
 		2F7FC93A29B0B55C00CFCAB3 /* SwiftConcurrency2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7FC93D29B0B55C00CFCAB3 /* SwiftConcurrency2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrency2App.swift; sourceTree = "<group>"; };
 		2F7FC93F29B0B55C00CFCAB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				2FE082CB29B7775F00639F64 /* StructClassExampleView.swift */,
 				2F9E3FA429E406DE00DDCC98 /* GlobalActorsView.swift */,
 				2F06E77929E86078007DC04C /* SendableView.swift */,
+				2F06E77B29E873BC007DC04C /* AsyncPublisherView.swift */,
 				2F7FC94B29B0B59200CFCAB3 /* Task */,
 				2F7FC94129B0B55D00CFCAB3 /* Assets.xcassets */,
 				2F7FC94329B0B55D00CFCAB3 /* Preview Content */,
@@ -193,6 +196,7 @@
 			files = (
 				2FE082CC29B7775F00639F64 /* StructClassExampleView.swift in Sources */,
 				2F7FC95A29B0B59200CFCAB3 /* DownloadImageWithAsyncView.swift in Sources */,
+				2F06E77C29E873BC007DC04C /* AsyncPublisherView.swift in Sources */,
 				2F7FC94029B0B55C00CFCAB3 /* ContentView.swift in Sources */,
 				2F7FC95429B0B59200CFCAB3 /* TaskGroupView.swift in Sources */,
 				2F9E3FA529E406DE00DDCC98 /* GlobalActorsView.swift in Sources */,
