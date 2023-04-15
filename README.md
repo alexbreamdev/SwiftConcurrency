@@ -15,4 +15,6 @@
 11. [Sendable](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/SendableView.swift)
 12. [AsyncPublisher](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/AsyncPublisherView.swift)
 ---
-
+## Resources
+[A crash course of async await (Swift Concurrency) - Shai Mishali - Swift Heroes 2022](https://www.youtube.com/watch?v=uWqy5KZXSlA)
+> Fast reminder
