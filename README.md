@@ -21,3 +21,6 @@
 
 > Swift Concurrency List
 [Swift Concurrency](https://www.youtube.com/playlist?list=PLwvDm4Vfkdphr2Dl4sY4rS9PLzPdyi8PM) 
+
+> Swift Concurrency Quick Start
+[Article](https://dev.srdanstanic.com/swift-concurrency-quick-start/?utm_source=substack&utm_medium=email) 
