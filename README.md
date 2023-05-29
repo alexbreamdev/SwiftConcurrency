@@ -14,3 +14,13 @@
 10. [Global Actors](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/GlobalActorsView.swift)
 11. [Sendable](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/SendableView.swift)
 12. [AsyncPublisher](https://github.com/alexbreamdev/SwiftConcurrency/blob/main/SwiftConcurrency2/AsyncPublisherView.swift)
+---
+## Resources
+> Fast reminder
+[A crash course of async await (Swift Concurrency) - Shai Mishali - Swift Heroes 2022](https://www.youtube.com/watch?v=uWqy5KZXSlA) 
+
+> Swift Concurrency List
+[Swift Concurrency](https://www.youtube.com/playlist?list=PLwvDm4Vfkdphr2Dl4sY4rS9PLzPdyi8PM) 
+
+> Swift Concurrency Quick Start
+[Article](https://dev.srdanstanic.com/swift-concurrency-quick-start/?utm_source=substack&utm_medium=email) 
