@@ -53,6 +53,7 @@ class TaskGroupDataManager {
             // waiting for task results without certain order
             // if task doesn't complete this loop will wait forever
             // or until it fails
+            // this is AsyncSequence
             for try await image in group {
                 images.append(image)
             }
